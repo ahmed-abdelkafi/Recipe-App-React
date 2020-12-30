@@ -16,3 +16,8 @@ body {
     display: block;
 
 }
+
+.header-hero {
+    min-height: calc(100vh -  66px);
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url("./images/homeBcg.jpeg") center/cover no-repeat;
+}
