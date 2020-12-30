@@ -11,3 +11,8 @@ body {
 .letter-spacing {
     letter-spacing: 0.5rem;
 }
+
+.logo-position {
+    display: block;
+
+}
