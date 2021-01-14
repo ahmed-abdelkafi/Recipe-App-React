@@ -25,7 +25,7 @@ class Recipes extends Component {
         return (
             <div>
                 <Search search={this.state.search} handleChange={this.handleChange} handleSubmit={this.handleSubmit} />
-                <RecipeList recipe={this.state.recipes}/>
+                <RecipeList recipes={this.state.recipes}/>
 
             </div>
         );
