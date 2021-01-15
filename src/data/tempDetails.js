@@ -1,18 +1,18 @@
 export const recipeData = {
   f2f_url: "http://food2fork.com/view/35382",
-  image_url:
-    "http://static.food2fork.com/Jalapeno2BPopper2BGrilled2BCheese2BSandwich2B12B500fd186186.jpg",
+  image_url: "http://forkify-api.herokuapp.com/images/best_pizza_dough_recipe1b20.jpg",
   ingredients: [
-    "2 jalapeno peppers, cut in half lengthwise and seeded",
-    "2 slices sour dough bread",
-    "1 tablespoon butter, room temperature",
-    "2 tablespoons cream cheese, room temperature",
-    "1/2 cup jack and cheddar cheese, shredded",
-    "1 tablespoon tortilla chips, crumbled"
+    "4 1/2 cups (20.25 ounces) unbleached high-gluten, bread, or all-purpose flour, chilled",
+    "1 3/4 (.44 ounce) teaspoons salt",
+    "1 teaspoon (.11 ounce) instant yeast",
+    "1/4 cup (2 ounces) olive oil (optional)",
+    "1 3/4 cups (14 ounces) water, ice cold (40F)",
+    "Semolina flour OR cornmeal for dusting"
   ],
-  publisher: "Closet Cooking",
-  publisher_url: "http://closetcooking.com",
-  source_url:
-    "http://www.closetcooking.com/2011/04/jalapeno-popper-grilled-cheese-sandwich.html",
-  title: "Jalapeno Popper Grilled Cheese Sandwich"
+  publisher: "101 Cookbooks",
+  publisher_url: "http://www.101cookbooks.com",
+  source_url: "http://www.101cookbooks.com/archives/001199.html",
+  title: "Best Pizza Dough Ever"
 };
+
+
