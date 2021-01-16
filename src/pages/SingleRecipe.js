@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {recipeData} from "../data/tempDetails";
 import {Link} from "react-router-dom";
 
 class SingleRecipe extends Component {
@@ -7,12 +6,23 @@ class SingleRecipe extends Component {
         super(props);
         const id = this.props.match.params.id;
         this.state = {
-            recipe: recipeData,
+            recipe:{ },
             id,
-            loading: false
-
+            loading: true
         }
-
+    }
+    async componentDidMount() {
+     const url=`https://forkify-api.herokuapp.com/api/get?rId=${this.state.id}`;
+     try {
+         const response = await fetch(url);
+         const responseData = await response.json()
+         this.setState({
+             recipe:responseData.recipe,
+             loading:false
+         })
+        }catch(error){
+         console.log(error);
+     }
     }
     render() {
     const { image_url,ingredients,publisher,source_url,title,publisher_url}=this.state.recipe;
@@ -63,11 +73,7 @@ class SingleRecipe extends Component {
                            {ingredients.map((item,index) => (
                                <li key={index} className="list-group-item text-slanted"> {item}</li>
                            ))}
-
                        </ul>
-
-
-
                    </div>
 
                </div>

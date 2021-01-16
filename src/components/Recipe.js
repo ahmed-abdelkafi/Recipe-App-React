@@ -18,7 +18,7 @@ class Recipe extends Component {
                         <h6 className="text-warning text-slanted"> provided by {publisher}</h6>
                     </div>
                     <div className="card-footer">
-                        <Link to ={`/recipes:${recipe_id}`} className="btn btn-primary text-capitalize">
+                        <Link to ={`/recipes/${recipe_id}`} className="btn btn-primary text-capitalize">
                             details
                         </Link>
                         <a

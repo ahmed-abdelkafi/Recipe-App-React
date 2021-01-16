@@ -20,7 +20,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/" exact component={Home}/>
                     <Route path="/recipes" exact component={Recipes}/>
-                    <Route path="/recipes:id" component={SingleRecipe}/>
+                    <Route path="/recipes/:id" component={SingleRecipe}/>
                     <Route  component={Default}/>
 
                 </Switch>
