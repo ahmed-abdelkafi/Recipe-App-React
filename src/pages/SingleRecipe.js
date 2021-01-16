@@ -49,7 +49,7 @@ class SingleRecipe extends Component {
                        </Link>
                        <img src={image_url}
                        alt="recipe"
-                       className="d-block w-100"
+                       className="d-block w-100 image"
                        style={{maxHeight:"30rem"}}
                        />
 
