@@ -23,3 +23,9 @@ body {
 
     background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url("./images/defaultBcg.jpeg") center/cover no-repeat;
 }
+@media only screen and (max-width: 373px) {
+   .margin_button {
+       margin-left : 0 !important;
+   }
+
+}

@@ -58,13 +58,13 @@ class SingleRecipe extends Component {
                        <h6 className="text-warning text-slanted text-capitalize"> provided by {publisher}</h6>
                        <a
                            href={publisher_url}
-                           className="btn btn-primary mt-2 text-capitalize"
+                           className="btn btn-primary mt-2 text-capitalize "
                            target="_blank"
                            rel="noopener noreferrer"
                        >publisher webpage </a>
                        <a
                            href={source_url}
-                           className="btn btn-success mt-2 mx-2 text-capitalize"
+                           className="btn btn-success mt-2 mx-2 text-capitalize margin_button"
                            target="_blank"
                            rel="noopener noreferrer"
                        >recipe url </a>

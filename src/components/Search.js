@@ -24,12 +24,19 @@ class Search extends Component {
                             onChange={handleChange}
                             className="form-control"/>
                         <div className="input-group-append">
-                            <button type="submit"
-                                    onClick={handleSubmit}
-                                    className="input-group-text bg-primary text-white"
-                            >
+
+
+                                <button type="submit"
+                                onClick={handleSubmit}
+                                className={search.length>0 ? "input-group-text bg-primary text-white" : "input-group-text  text-white"}
+                                 disabled={search.length>0 ? false:true}
+                                >
                                 <i className="fas fa-search"/>
-                            </button>
+                                </button>
+
+
+
+
                         </div>
                     </div>
                 </form>
