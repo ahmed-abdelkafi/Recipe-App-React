@@ -14,6 +14,9 @@ body {
     display: block;
 
 }
+.image {
+    object-fit: cover;
+}
 
 .header-hero , .default-hero {
     min-height: calc(100vh -  66px);
@@ -26,6 +29,7 @@ body {
 @media only screen and (max-width: 373px) {
    .margin_button {
        margin-left : 0 !important;
+
    }
 
 }

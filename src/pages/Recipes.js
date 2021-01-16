@@ -35,7 +35,6 @@ class Recipes extends Component {
                     error:''
                 });
             }
-
             }catch(err){
             console.log(err);
         }

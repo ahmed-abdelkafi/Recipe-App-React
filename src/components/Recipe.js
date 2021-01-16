@@ -11,7 +11,7 @@ class Recipe extends Component {
                         src={image_url}
                         alt="recipe"
                         style={{height:"14rem"}}
-                        className="img-card-top"
+                        className="img-card-top image"
                     />
                     <div className="card-body text-capitalize">
                         <h6>{title}</h6>

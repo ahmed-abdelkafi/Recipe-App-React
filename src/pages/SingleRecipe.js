@@ -50,7 +50,8 @@ class SingleRecipe extends Component {
                        <img src={image_url}
                        alt="recipe"
                        className="d-block w-100"
-                       style={{maxHeight:"30rem"}}/>
+                       style={{maxHeight:"30rem"}}
+                       />
 
                    </div>
                    <div className="col-10 mx-auto col-md-6 my-3">
